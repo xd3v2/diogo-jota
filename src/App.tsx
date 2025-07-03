@@ -29,7 +29,7 @@ function App() {
                     <div className="text-center">
                         <div className="mb-8">
                             <img
-                                src="https://placehold.co/300x300/C8102E/ffffff/png?text=Diogo+Jota+%2320"
+                                src="https://catalunyadiari.com/filesedc/uploads/image/post/2025/07/diogo-jota-atletico_1200_800.webp"
                                 alt="Diogo Jota"
                                 className="w-48 h-48 mx-auto rounded-full border-4 border-white shadow-2xl object-cover"
                             />
