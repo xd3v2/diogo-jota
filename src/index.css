@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-white text-gray-900;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .memorial-gradient {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+  }
+  
+  .liverpool-gradient {
+    background: linear-gradient(135deg, #C8102E 0%, #8B0000 100%);
+  }
+  
+  .memorial-section {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .memorial-container {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .memorial-card {
+    @apply bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden;
+  }
+  
+  .memorial-text {
+    @apply text-gray-700 leading-relaxed;
+  }
+  
+  .memorial-quote {
+    @apply text-lg italic text-gray-600 border-l-4 border-liverpool-red pl-4;
+  }
+  
+  .memorial-stat {
+    @apply text-3xl font-bold text-liverpool-red;
+  }
+  
+  .memorial-stat-label {
+    @apply text-sm text-gray-500 uppercase tracking-wide;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C8102E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B0000;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+} 
