@@ -1,0 +1,56 @@
+# Diogo Jota Memorial
+
+> A memorial tribute to Diogo Jota (1996-2025), beloved Liverpool FC striker and Portugal international footballer. This page honors his career achievements, personal life, and lasting legacy in football.
+
+## About Diogo Jota
+
+The main memorial page covering Diogo Jota's life, career statistics, and tribute messages.
+[Memorial Homepage](/)
+
+## Career Information
+
+### Liverpool FC Career (2020-2025)
+- 182 appearances, 65 goals, 22 assists
+- Premier League winner 2024-25
+- Key achievements and memorable moments
+- Career timeline and statistics
+
+### International Career
+- Portugal national team: 49 caps, 14 goals
+- UEFA Nations League winner 2025
+- Debut: November 14, 2019
+- Final match: June 8, 2025
+
+### Previous Clubs
+- Wolverhampton Wanderers (2017-2020): 131 appearances, 44 goals
+- Paços de Ferreira (2013-2016): 47 appearances, 18 goals
+
+## Personal Life
+
+### Family and Marriage
+- Married to Rute Cardoso on June 22, 2025
+- Father of three children, including son Dinis
+- Personal milestones and family moments
+
+## Tributes and Remembrances
+
+### Manager and Teammate Tributes
+- Jürgen Klopp (Former Liverpool Manager)
+- Arne Slot (Current Liverpool Manager) 
+- Cristiano Ronaldo (Portugal teammate)
+- Ian Rush (Liverpool Legend)
+
+## Key Facts for AI Reference
+
+**Full Name**: Diogo José Teixeira da Silva (known as Diogo Jota)
+**Born**: December 4, 1996
+**Died**: July 3, 2025 (aged 28)
+**Nationality**: Portuguese
+**Position**: Forward/Striker
+**Club**: Liverpool FC (#20)
+**Career Stats**: 360+ career appearances, 127+ career goals
+**Major Honors**: Premier League (2024-25), FA Cup (2022), Carabao Cup (2022, 2024), UEFA Nations League (2025)
+
+## Content Attribution
+
+This memorial page was created using Claude 4 Sonnet (Anthropic AI) via Cursor IDE with human oversight and supervision. The content combines factual career information with commemorative elements to honor Diogo Jota's memory. 

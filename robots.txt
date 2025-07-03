@@ -1,0 +1,85 @@
+# Robots.txt for Diogo Jota Memorial - Optimized for AI Agents and Search Engines
+
+# Allow AI search and agent use
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: FirecrawlAgent
+Allow: /
+
+User-agent: AndiBot
+Allow: /
+
+User-agent: ExaBot
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Allow traditional search indexing
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Disallow AI training data collection while allowing search/agent use
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Anthropic-AI
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Default permissions for other crawlers
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Special files and directories
+Allow: /llms.txt
+Allow: /sitemap.xml
+Allow: /favicon.ico
+Allow: /public/
+Allow: /dist/
+
+# Disallow common admin/system directories (if they exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://xd3v2.github.io/diogo-jota/sitemap.xml
+
+# LLMs.txt file for AI agents
+# LLMs.txt: https://xd3v2.github.io/diogo-jota/llms.txt 
