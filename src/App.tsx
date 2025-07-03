@@ -72,8 +72,8 @@ function App() {
                         <Card className="memorial-card hover:shadow-xl transition-shadow">
                             <div className="h-40 overflow-hidden">
                                 <img
-                                    src="https://placehold.co/400x300/2E7D32/ffffff/png?text=Estadio+da+Mata+Real"
-                                    alt="Paços de Ferreira Stadium"
+                                    src="https://www.fcbarcelonanoticias.com/uploads/s1/39/72/4/diogo-jota-39724.jpeg"
+                                    alt="Diogo Jota at Paços de Ferreira"
                                     className="w-full h-full object-cover"
                                 />
                             </div>
