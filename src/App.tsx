@@ -29,7 +29,7 @@ function App() {
                     <div className="text-center">
                         <div className="mb-8">
                             <img
-                                src="https://catalunyadiari.com/filesedc/uploads/image/post/2025/07/diogo-jota-atletico_1200_800.webp"
+                                src="/diogo-jota-profile.webp"
                                 alt="Diogo Jota"
                                 className="w-48 h-48 mx-auto rounded-full border-4 border-white shadow-2xl object-cover"
                             />
@@ -72,11 +72,12 @@ function App() {
                         <Card className="memorial-card hover:shadow-xl transition-shadow">
                             <div className="h-40 overflow-hidden">
                                 <img
-                                    src="https://www.fcbarcelonanoticias.com/uploads/s1/39/72/4/diogo-jota-39724.jpeg"
+                                    src="/diogo-jota-pacos.jpeg"
                                     alt="Diogo Jota at Paços de Ferreira"
                                     className="w-full h-full object-cover"
                                 />
                             </div>
+                            <p className="text-xs text-gray-400 px-2 py-1">Photo: FC Barcelona Noticias</p>
                             <CardHeader>
                                 <CardTitle className="flex items-center gap-2">
                                     <MapPin className="h-5 w-5 text-liverpool-red" />
@@ -105,11 +106,12 @@ function App() {
                         <Card className="memorial-card hover:shadow-xl transition-shadow">
                             <div className="h-40 overflow-hidden">
                                 <img
-                                    src="https://placehold.co/400x300/FBA31A/000000/png?text=Wolves+2017-2020"
+                                    src="/diogo-jota-wolves.jpg"
                                     alt="Diogo Jota at Wolves"
                                     className="w-full h-full object-cover bg-orange-500"
                                 />
                             </div>
+                            <p className="text-xs text-gray-400 px-2 py-1">Photo: The Athletic</p>
                             <CardHeader>
                                 <CardTitle className="flex items-center gap-2">
                                     <Star className="h-5 w-5 text-liverpool-red" />
@@ -138,11 +140,13 @@ function App() {
                         <Card className="memorial-card hover:shadow-xl transition-shadow border-liverpool-red">
                             <div className="h-40 overflow-hidden">
                                 <img
-                                    src="https://placehold.co/400x300/C8102E/ffffff/png?text=Liverpool+%23Never+Walk+Alone"
+                                    src="/diogo-jota-liverpool-celebration.jpg"
                                     alt="Diogo Jota celebrating for Liverpool"
                                     className="w-full h-full object-cover"
+                                    style={{ objectPosition: '0 -30px' }}
                                 />
                             </div>
+                            <p className="text-xs text-gray-400 px-2 py-1">Photo: The Football Faithful</p>
                             <CardHeader>
                                 <CardTitle className="flex items-center gap-2 text-liverpool-red">
                                     <Heart className="h-5 w-5" />
@@ -182,11 +186,12 @@ function App() {
                     {/* Trophy celebration image */}
                     <div className="text-center mb-12">
                         <img
-                            src="https://placehold.co/800x400/FFD700/000000/png?text=Premier+League+Champions+2024-25"
+                            src="/diogo-jota-premier-league-trophy.jpg"
                             alt="Diogo Jota celebrating with trophies"
                             className="w-full max-w-4xl mx-auto rounded-lg shadow-lg object-cover h-64 md:h-80"
                         />
                         <p className="text-sm text-gray-500 mt-2 italic">Celebrating success with Liverpool FC</p>
+                        <p className="text-xs text-gray-400 mt-1">Photo: The Independent</p>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -287,13 +292,15 @@ function App() {
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <Card className="memorial-card">
-                            <div className="h-48 overflow-hidden">
+                            <div className="h-60 overflow-hidden">
                                 <img
-                                    src="https://placehold.co/600x400/4CAF50/ffffff/png?text=Family+Celebration+June+2025"
+                                    src="/diogo-jota-family-new.jpg"
                                     alt="Diogo Jota with family"
                                     className="w-full h-full object-cover"
+                                    style={{ objectPosition: 'center top' }}
                                 />
                             </div>
+                            <p className="text-xs text-gray-400 px-2 py-1">Photo: Hindustan Times</p>
                             <CardHeader>
                                 <CardTitle className="flex items-center gap-2">
                                     <Heart className="h-6 w-6 text-liverpool-red" />
@@ -349,11 +356,12 @@ function App() {
                     {/* Tribute image */}
                     <div className="text-center mb-12">
                         <img
-                            src="https://placehold.co/500x400/C8102E/ffffff/png?text=With+Manager+Klopp"
+                            src="/diogo-jota-klopp.jpg"
                             alt="Diogo Jota with Jürgen Klopp"
                             className="w-full max-w-md mx-auto rounded-lg shadow-lg object-cover h-48 md:h-64"
                         />
                         <p className="text-sm text-gray-500 mt-2 italic">With manager Jürgen Klopp</p>
+                        <p className="text-xs text-gray-400 mt-1">Photo: The Times</p>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
