@@ -195,31 +195,61 @@ function App() {
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-                        {/* Club Honors */}
+                        {/* Career Highlights */}
                         <Card className="memorial-card">
                             <CardHeader>
                                 <CardTitle className="flex items-center gap-2">
                                     <Trophy className="h-6 w-6 text-liverpool-gold" />
-                                    Club Honors
+                                    Career Highlights
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
                                 <div className="space-y-4">
-                                    <div className="flex items-center justify-between">
-                                        <span className="font-semibold">Premier League</span>
-                                        <Badge variant="gold">2024-25</Badge>
+                                    <div className="border-b pb-3 mb-3">
+                                        <h4 className="font-semibold text-sm text-gray-600 mb-2">TEAM TROPHIES</h4>
+                                        <div className="space-y-2">
+                                            <div className="flex items-center justify-between">
+                                                <span className="font-semibold">Premier League</span>
+                                                <Badge variant="gold">2024-25</Badge>
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <span className="font-semibold">FA Cup</span>
+                                                <Badge variant="gold">2022</Badge>
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <span className="font-semibold">Carabao Cup</span>
+                                                <Badge variant="gold">2022, 2024</Badge>
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <span className="font-semibold">UEFA Nations League</span>
+                                                <Badge variant="gold">2025</Badge>
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <span className="font-semibold">Championship (Wolves)</span>
+                                                <Badge variant="gold">2017-18</Badge>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className="flex items-center justify-between">
-                                        <span className="font-semibold">FA Cup</span>
-                                        <Badge variant="gold">2022</Badge>
-                                    </div>
-                                    <div className="flex items-center justify-between">
-                                        <span className="font-semibold">Carabao Cup</span>
-                                        <Badge variant="gold">2022, 2024</Badge>
-                                    </div>
-                                    <div className="flex items-center justify-between">
-                                        <span className="font-semibold">UEFA Nations League</span>
-                                        <Badge variant="gold">2025</Badge>
+                                    <div>
+                                        <h4 className="font-semibold text-sm text-gray-600 mb-2">INDIVIDUAL ACHIEVEMENTS</h4>
+                                        <div className="space-y-2">
+                                            <div className="flex items-center justify-between">
+                                                <span className="text-sm">Hat-tricks</span>
+                                                <span className="text-sm font-medium">4</span>
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <span className="text-sm">PL Player of the Month</span>
+                                                <span className="text-sm font-medium">Oct 2020</span>
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <span className="text-sm">50th Career Goal</span>
+                                                <span className="text-sm font-medium">Dec 2023</span>
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <span className="text-sm">Liverpool Goal Record</span>
+                                                <span className="text-sm font-medium">65 goals</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </CardContent>
@@ -227,13 +257,15 @@ function App() {
 
                         {/* International Career */}
                         <Card className="memorial-card">
-                            <div className="h-40 overflow-hidden">
+                            <div className="h-60 overflow-hidden">
                                 <img
-                                    src="https://placehold.co/400x300/DC143C/ffffff/png?text=Portugal+Nacional+Team"
+                                    src="/diogo-jota-portugal.jpg"
                                     alt="Diogo Jota with Portugal national team"
-                                    className="w-full h-full object-cover bg-red-600"
+                                    className="w-full h-full object-cover"
+                                    style={{ objectPosition: 'center -20px' }}
                                 />
                             </div>
+                            <p className="text-xs text-gray-400 px-2 py-1">Photo: Getty Images/Hola</p>
                             <CardHeader>
                                 <CardTitle className="flex items-center gap-2">
                                     <Users className="h-6 w-6 text-liverpool-red" />
